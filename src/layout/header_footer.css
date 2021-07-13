@@ -170,7 +170,7 @@ a.nav-link.header_list:hover {
 }
 .footer-background .footer-bottom-para p {
 	font-weight: normal;
-	font-size: 10px;
+	font-size: 12px;
 	line-height: 15px;
 	letter-spacing: -0.01em;
 	color: #000;
@@ -193,7 +193,7 @@ a.nav-link.header_list:hover {
 .copyright-txt p {
 	font-style: normal;
 	font-weight: normal;
-	font-size: 10px;
+	font-size: 12px;
 	color: #151515;
 	opacity: .5;
 }

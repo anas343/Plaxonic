@@ -30,7 +30,7 @@
 }
 .hm-hero-section .stock_txt-content {
 	position: absolute;
-	top: -50px;
+	top: -130px;
 }
 .container.stck-cont-pst {
 	position: relative;
@@ -42,15 +42,15 @@
 	color: #fff;
 }
 .hm-hero-section .stock_txt-content h2 {
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: 800;
-	line-height: 35px;
+	line-height: 44px;
 	color: #fff;
-	max-width: 445px;
+	max-width: 535px;
 	margin: 20px 0;
 }
 .hm-hero-section .stock_txt-content p {
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 25px;
 	font-weight: normal;
 	color: #fff;
@@ -63,7 +63,7 @@
   position: relative;
   top: -10px;
 	color: #fff;
-	font-size: 14px;
+	font-size: 16px;
 }
 .hm-hero-section .stock-video-description span {
 	display: inline-block;
@@ -93,9 +93,9 @@
 }
 .services-section .about-section h3 {
 	color: #030303;
-	font-size: 20px;
-	line-height: 25px;
-	max-width: 370px;
+	font-size: 36px;
+	line-height: 44px;
+	max-width: 460px;
 	font-weight: bold;
 }
 .services-section .about-section {
@@ -110,7 +110,7 @@
 	width: 619px;
 }
 .services-section .about-section p{
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: normal;
 	color: #000;
 }
@@ -122,21 +122,21 @@
 	padding-top: 40px;
 }
 .services-section .about-service-desc h5 {
-	font-size: 20px;
+	font-size: 36px;
 	font-weight: bold;
 	color: #EAEAEA;
 }
 .services-section .about-service-desc p {
-	font-size: 14px;
+	font-size: 30px;
 	font-weight: normal;
 	color: #000;
-	max-width: 300px;
-	margin: 15px 0 30px 0;
+	max-width: 314px;
+	margin: 15px 0 50px 0;
 }
 .services-section .about-service-desc a {
 	border: 1px solid #B1B1B1;
 	color: #000;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 500;
 	padding: 15px 30px 15px 15px;
 	text-decoration: none;
@@ -157,33 +157,33 @@
 	font-weight: normal;
 }
 .services-provide-section .service-hd h5 {
-	font-size: 24px;
+	font-size: 36px;
 	color: #030303;
 	font-weight: bold;
 	margin: 10px 0 15px 0;
 }
 .services-provide-section .service-hd p {
-	font-size: 14px;
+	font-size: 18px;
 	color: #000;
-	max-width: 600px;
+	max-width: 750px;
 }
 
 .services-provide-section .service-btn a {
 	background:  #1BA3DD;
-	padding: 20px;
+	padding: 30px 35px;
 	text-decoration: none;
 	color: #fff;
 	position: relative;
 	top: 30px;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 18px;
 }
 .service-btn a:hover img {
 	transform: rotate(45deg);
 }
 .all-services .provide_srv a h2 {
 	color: #000;
-	font-size: 16px;
+	font-size: 24px;
 	font-weight: 600;
 	margin: 10px 0;
 }
@@ -195,10 +195,10 @@
 	left: 1%;
 }
 .all-services .provide_srv p {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: normal;
 	color: #000;
-	max-width: 245px;
+	max-width: 265px;
 }
 .services-provide-section .all-services {
 	padding-top: 20px;
@@ -214,12 +214,12 @@
 .project-succ .project-services h2 {
 	color: #fff;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 56px;
 }
 .project-succ .project-services h3 {
 	color: #fff;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 56px;
 }
 .project-succ .project-services h2:after {
 	content: '+';
@@ -227,19 +227,22 @@
 }
 .project-succ {
 	background: radial-gradient(84.31% 365.68% at 18.89% 72.03%, #62CFFD 30.66%, #1BA3DD 100%);
-	padding: 40px 0 20px 0;
+	padding: 60px 0 50px 0;
 }
 
 .project-succ h2 {
 	color: #fff;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 36px;
 }
 .project-succ p {
 	color: #fff;
 	font-weight: normal;
-	font-size: 14px;
-	margin-bottom: 20px;
+	font-size: 18px;
+	margin: 25px 0 40px 0;
+}
+.project-services p {
+	margin: 0;
 }
 .project-succ .project-count {
 	display: flex;
@@ -259,16 +262,16 @@
 	font-weight: normal;
 }
 .product_desc-detail .product-content h2 {
-	font-size: 24px;
+	font-size: 36px;
 	color: #000;
 	font-weight: bold;
 	margin: 10px 0 15px 0;
 	max-width: 200px;
 }
 .product_desc-detail .product-content p {
-	font-size: 14px;
+	font-size: 18px;
 	color: #000;
-	max-width: 300px;
+	max-width: 270px;
 }
 
 .product_desc-detail .product-content {
@@ -311,12 +314,12 @@
 	padding-left: 20px;
 }
 .product-slider .slider__item span {
-	font-size: 14px;
+	font-size: 16px;
 	color: #1BA3DD;
 	font-weight: normal;
 }
 .product-slider .slider__item p {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 600;
 	color: #000;
 	max-width: 300px;	
@@ -329,17 +332,17 @@
 button.button.back-btn {
 	background: #0190CD;
     border: none;
-    padding: 13px 20px;
+    padding: 17px 30px;
     border-right: 1px solid #fff;
 }
 
 button.slider-count-btn {
     background: #1BA3DD;
     border: none;
-    padding: 15px 18px;
+    padding: 14px 28px 17px 28px;
     color: #fff;
 	cursor: none;
-	font-size: 14px;
+	font-size: 18px;
 }
 .slider-control-btn {
 	float: right;
@@ -365,7 +368,7 @@ button.slider-count-btn {
 	position: absolute;
 	max-width: 335px;
 	background-color: #fff;
-	padding: 40px;
+	padding: 65px 40px;
 	min-height: 295px;
 	top: 40%;
 	left: -10%;
@@ -376,18 +379,18 @@ button.slider-count-btn {
 }
 .story-grid .story-txt h5 {
 	color: #1BA3DD;
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: uppercase;
 }
 .story-grid .story-txt h2 {
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 36px;
 	color: #000;
 	max-width: 140px;
 	margin-bottom: 15px;
 }
 .story-grid .story-txt p {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: normal;
 	color: #000;
 }
@@ -400,10 +403,10 @@ button.slider-count-btn {
 	background-color: #1BA3DD;
 	color: #fff;
 	text-decoration: none;
-	font-size: 14px;
-	padding: 15px 20px;
+	font-size: 18px;
+	padding: 20px 20px;
 	position: relative;
-	top: -8px;
+	top: -2px;
 }
 .case-journey  a:hover img {
 	transform: rotate(45deg);
@@ -417,13 +420,13 @@ button.slider-count-btn {
 }
 .case-study-slider .case-std-content h5 {
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 16px;
 	color: #1BA3DD;
 }
 .case-study-slider .case-std-content h1 {
 	font-weight: 600;
-	font-size: 14px;
-	line-height: 22px;
+	font-size: 24px;
+	line-height: 29px;
 	color: #000;
 	padding-right: 50px;
 	max-width: 330px;
@@ -431,7 +434,7 @@ button.slider-count-btn {
 }
 .case-study-slider .case-std-content p {
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 18px;
 	color: #A0A0A0;
 	max-width: 300px;
 }
@@ -443,7 +446,7 @@ button.slider-count-btn {
 	width: 100%;
 }
 .dept-detail .img-dept-content {
-    width: 57%;
+    width: 50%;
 }
 .career-section .dept-detail {
 	display: flex;
@@ -459,28 +462,28 @@ button.slider-count-btn {
 	background: radial-gradient(84.31% 365.68% at 18.89% 72.03%, #cccccc 30.66%, #d1d1d1 100%);
 }
 .career-section  .txt-dept-sec p {
-	font-size: 14px;
+	font-size: 18px;
 	color: #000;
-	max-width: 400px;
+	max-width: 470px;
 	font-weight: normal;
-	margin: 20px 0;
+	margin: 20px 0 50px 0;
 }
 .career-section  .txt-dept-sec h2 {
 	color: #1BA3DD;
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: bold;
 	margin-top: 5px;
 }	
 .career-section  .txt-dept-sec h4 {
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 24px;
 	color: #000;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
 .career-section  .txt-dept-sec h3{
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 18px;
 	color: #000;
 	font-weight: normal;
 }
@@ -497,13 +500,13 @@ button.slider-count-btn {
 	padding: 60px 0 90px 0;
 }
 .team-section .connect-team h2 {
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: bold;
 	margin-bottom: 15px;
 }
 .team-section .connect-team p {
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 18px;
 	max-width: 740px;
 	margin: 0 auto;
 }
@@ -511,10 +514,10 @@ button.slider-count-btn {
 	background: #1BA3DD;
 	color: #fff;
 	text-decoration: none;
-	padding: 18px 25px;
+	padding: 20px 25px;
 	position: relative;
 	top: 40px;
-	font-size: 16px;
+	font-size: 18px;
 }
 .team-section .connect-team a img {
 	position: relative;
@@ -533,14 +536,14 @@ button.slider-count-btn {
 }
 .grow_bussiness .txt-sec h1 {
 	font-weight: bold;
-	font-size: 24px;
-	line-height: 35px;
+	font-size: 36px;
+	line-height: 44px;
 	color: #fff;
-	max-width: 400px;
+	max-width: 630px;
 }
 .grow_bussiness .txt-sec p  {
 	color: #fff;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: normal;
 	max-width: 600px;
 }
@@ -629,9 +632,9 @@ button.slider-count-btn {
 	background: #fff;
     color: #0190CD;
     padding: 18px 25px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
-		text-decoration: none;	
+	text-decoration: none;	
 }
 .container.buss-grid .connect-with-us a img {
 	position: relative;
