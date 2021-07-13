@@ -12,7 +12,7 @@ export default class bannerslider extends Component {
 			speed: 2000,
 			slidesToShow: 1,
 			slidesToScroll: 1,
-			autoplay: true,
+			autoplay: false,
 			speed: 2000
 		};
 		return (
