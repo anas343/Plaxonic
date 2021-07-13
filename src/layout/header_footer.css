@@ -1,0 +1,199 @@
+/* Header CSS  Start */
+
+* {
+	font-family: 'Libre Franklin', sans-serif;
+}
+a.nav-link.header_list {
+  color: #000;
+	font-size: 16px;
+	font-weight: normal;
+	padding-right: 25px !important;
+}
+.navbar-nav .nav-item:first-child a.nav-link.header_list {
+	padding-left: 30px !important;
+}
+a.nav-link.header_list:hover {
+	font-weight: bold;
+}
+.get_in_touch a {
+	background: #1BA3DD;
+	color: #fff;
+	padding: 15px 30px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+	text-decoration: none;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.get_in_touch a span {
+	position: relative;
+	left: 10px;
+}
+.get_in_touch a:hover span img {
+	transform: rotate(45deg);
+}
+.contain {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.item {
+  align-items: center;
+  background-color: tomato;
+  color: white;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+}
+
+
+/* Footer CSS Start */
+
+.footer-background .footer-main-content {
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	justify-content: space-between;
+	border-bottom: 1px solid #BDBDBD;
+  padding: 20px 0;
+}
+.footer-background {
+	padding: 30px 0 10px 0;
+}
+.footer-background .footer-main-content ul li {
+	list-style: none;
+}
+.footer-main-content  .footer-list ul {
+	display: flex;
+	padding-left: 0;
+}
+.footer-main-content  .footer-list ul li a {
+	padding: 0 40px 0 0;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000;
+	text-decoration: none;
+}
+.footer-main-content  .footer-list ul li a:hover {
+	font-weight: bold;
+}
+.country-slt-drpdown .drp-menu p {
+	display: inline;
+	font-size: 14px;
+	color: #000;
+	cursor: pointer;
+}
+.country-slt-drpdown .drp-menu ul li {
+	position: relative;
+	font-size: 14px;
+	background: #EDEFF1;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding: 12px;
+	cursor: pointer;
+}
+.country-slt-drpdown .drp-menu ul {
+	display: none;
+	padding-left: 0;
+  position: absolute;
+  left: 20px;
+	width: 100%;
+}
+.country-slt-drpdown .drp-menu .drparrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+	transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+	position: relative;
+  left: 10px;
+  top: -4px;
+}
+
+.country-slt-drpdown .droparrowup {
+  transform: rotate(-135deg) !important;
+  -webkit-transform: rotate(-135deg) !important;
+	top: 0 !important;
+}
+.country-slt-drpdown .flag-icon {
+	position: relative;
+	right: 10px;
+	top: -1px;
+}
+.country-slt-drpdown {
+	position: relative;
+	right: 20px;
+}
+.news-letter-sec .news-section {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.footer-background .news-letter-sec {
+	padding: 20px 0;
+}
+.news-letter-sec .news-section  .logo-section {
+	width: 50%;
+}
+.news-letter-sec .news-section  .news-letter-form {
+	width: 50%;
+	padding-top: 10px;
+}
+.news-letter-sec .news-section .news-update-info {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	border-bottom: 1px solid #000;
+}
+.news-section .news-update-info input[type="text"] {
+	width: 100%;
+	border: none;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	outline: none;
+	padding-bottom: 20px;
+}
+.news-update-info .news-letter-input {
+	width: 100%;
+}
+.news-update-info .news-letter-submit input[type="submit"] {
+	display: none;
+}
+.news-update-info .news-letter-submit img {
+	cursor: pointer;
+}
+.footer-background .footer-bottom-para {
+	padding: 30px 0 15px 0;
+}
+.footer-background .footer-bottom-para p {
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 15px;
+	letter-spacing: -0.01em;
+	color: #000;
+	opacity: 0.5;
+}
+.social-icon-grid  .social-icons ul li {
+	list-style: none;
+	margin-right:  10px;
+}
+.social-icon-grid  .social-icons ul {
+	display: flex;
+	padding-left: 0;
+}
+.footer-background .social-icon-grid {
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+.copyright-txt p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	color: #151515;
+	opacity: .5;
+}
