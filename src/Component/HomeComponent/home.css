@@ -3,25 +3,22 @@
 }
 .hm-hero-section .stock_sec_image {
 	background-image: url(../../assests/stock1.png);
-	padding: 300px 0 350px 0;
+	padding: 300px 0 400px 0;
 	background-repeat: no-repeat;
-	background-position: center right;
 	position: relative;
 	background-size: cover;
 }
 .hm-hero-section .stock_sec_image2 {
 	background-image: url(../../assests/Stock2.jpg);
-	padding: 300px 0 350px 0;
+	padding: 300px 0 400px 0;
 	background-repeat: no-repeat;
-	background-position: center right;
 	position: relative;
 	background-size: cover;
 }
 .hm-hero-section .stock_sec_image3 {
 	background-image: url(../../assests/Stock3.jpg);
-	padding: 300px 0 350px 0;
+	padding: 300px 0 400px 0;
 	background-repeat: no-repeat;
-	background-position: center right;
 	position: relative;
 	background-size: cover;
 }
@@ -30,7 +27,7 @@
 }
 .hm-hero-section .stock_txt-content {
 	position: absolute;
-	top: -130px;
+	top: -100px;
 }
 .container.stck-cont-pst {
 	position: relative;
@@ -47,7 +44,7 @@
 	line-height: 44px;
 	color: #fff;
 	max-width: 535px;
-	margin: 20px 0;
+	margin: 20px 0 50px 0;
 }
 .hm-hero-section .stock_txt-content p {
 	font-size: 18px;
@@ -80,7 +77,7 @@
 	padding-top: 30px;
 	padding-bottom: 10px;
 	padding-left: 15px;
-	top: 100px;
+	top: 120px;
 }
 .common-pad {
 	padding-top: 70px;
@@ -654,4 +651,21 @@ button.slider-count-btn {
 .container.buss-grid .connect-with-us a img {
 	position: relative;
 	left: 10px;
+}
+
+
+@media (min-width: 1800px) {
+	.hm-hero-section .stock_sec_image {
+		padding: 440px 0 430px 0;
+	}
+	.hm-hero-section .stock_sec_image2 {
+		padding: 440px 0 430px 0;
+	}
+	.hm-hero-section .stock_sec_image3 {
+		padding: 440px 0 430px 0;
+	}
+	.hm-hero-section .stock_txt-content {
+		top: -110px;
+	}
+
 }
