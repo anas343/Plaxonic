@@ -184,6 +184,7 @@ export default class casestudyslider extends Component {
 										<div className="slider">
 											<div className="slider__item case-std-img">
 												<img src={element.src} alt="product-first"/>
+													<a href='#' className='case-sty-txt'>{element.customTxt}</a>
 												<div className="case-std-content">
 													<h5>{element.title}</h5>
 													<h1>{element.head}</h1>

@@ -228,6 +228,7 @@
 .project-succ {
 	background: radial-gradient(84.31% 365.68% at 18.89% 72.03%, #62CFFD 30.66%, #1BA3DD 100%);
 	padding: 60px 0 50px 0;
+	margin-top: 40px;
 }
 
 .project-succ h2 {
@@ -404,9 +405,12 @@ button.slider-count-btn {
 	color: #fff;
 	text-decoration: none;
 	font-size: 18px;
-	padding: 20px 20px;
+	padding: 17px 20px;
 	position: relative;
-	top: -2px;
+	top: -4px;
+}
+.services-provide-section {
+	padding-top: 80px;
 }
 .case-journey  a:hover img {
 	transform: rotate(45deg);
@@ -417,6 +421,16 @@ button.slider-count-btn {
 }
 .case-study-slider .slider__item.case-std-img {
 	padding-left: 20px;
+	position: relative;
+}
+.case-study-slider .slider__item.case-std-img .case-sty-txt{
+	position: absolute;
+    top: 27%;
+    color: #fff;
+    background: #1BA3DD;
+    padding: 15px 30px;
+    font-size: 16px;
+	text-decoration: none;
 }
 .case-study-slider .case-std-content h5 {
 	font-weight: normal;
@@ -494,6 +508,7 @@ button.slider-count-btn {
 	background-image: url(../../assests/home-startup.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center bottom;
 }
 .team-section .connect-team {
 	text-align: center;
