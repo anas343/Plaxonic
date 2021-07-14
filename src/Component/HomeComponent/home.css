@@ -670,7 +670,7 @@ button.slider-count-btn {
 
 }
 
-@media (min-width: 1366px) {
+@media (max-width: 1366px) {
 	.hm-hero-section .stock_sec_image {
 		padding: 340px 0;
 	}
