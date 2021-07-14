@@ -672,16 +672,19 @@ button.slider-count-btn {
 
 @media (max-width: 1366px) {
 	.hm-hero-section .stock_sec_image {
-		padding: 340px 0;
+		padding: 200px 0 400px 0;
 	}
 	.hm-hero-section .stock_sec_image2 {
-		padding: 340px 0;
+		padding: 200px 0 400px 0;
 	}
 	.hm-hero-section .stock_sec_image3{
-		padding: 340px 0;
+		padding: 200px 0 400px 0;
 	}
 	.hm-hero-section .stock_txt-content {
 		position: absolute;
-		top: -140px;
+		top: -50px
+	}
+	.hm-hero-section .stock-video-description {
+		top: 90px;
 	}
 }
