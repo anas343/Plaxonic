@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
     return (
 			<nav className="container navbar navbar-expand-lg">
-				<Link className="navbar-brand" to="#"><img src={Brand} alt="brand-image"/></Link>
+				<Link className="navbar-brand" to="/"><img src={Brand} alt="brand-image"/></Link>
 				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
@@ -19,13 +19,13 @@ export default function Header() {
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav mr-auto">
 						<li className="nav-item active">
-							<Link className="nav-link header_list" to="#">Services</Link>
+							<Link className="nav-link header_list" to="/service">Services</Link>
 						</li>
 						<li className="nav-item">
 							<Link className="nav-link header_list" to="#">Products</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="nav-link header_list" to="#">About</Link>
+							<Link className="nav-link header_list" to="/about">About</Link>
 						</li>
 						<li className="nav-item">
 							<Link className="nav-link header_list" to="#">Resources</Link>

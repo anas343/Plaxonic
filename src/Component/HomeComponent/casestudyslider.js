@@ -187,7 +187,7 @@ export default class casestudyslider extends Component {
 													<a href='#' className='case-sty-txt'>{element.customTxt}</a>
 												<div className="case-std-content">
 													<h5>{element.title}</h5>
-													<h1>{element.head}</h1>
+													<h2>{element.head}</h2>
 													<p>{element.para}</p>
 												</div>
 											</div>

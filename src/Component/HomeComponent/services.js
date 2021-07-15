@@ -12,7 +12,7 @@ export default class services extends Component {
         return (
             <>
 							<div className="container services-section common-pad">
-								<div className="service-detail">
+								<div className="service-detail" data-aos="fade-up">
 									<h2>ABOUT US</h2>
 									<div className= "about-section">
 										<div className="head-detail">
@@ -23,24 +23,36 @@ export default class services extends Component {
 										</div>
 									</div>
 								</div>
-								<div className="about-service-desc">
+								<div className="about-service-desc" data-aos="fade-up">
 									<div className="ser_box-1">
 										<h5>01</h5>
 										<p>Our Diversity Is Our Strength</p>
-										<a href="#">Overview <span><h2 className='uparrow-lft-abv'><span></span></h2></span></a>
+										<a href="#">Overview 
+                      <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.01558 20.1165L8.78335 21.8842L19.39 11.2776L19.39 21.0004H21.9002V6.99964H7.89947L7.89947 9.50987L17.6222 9.50987L7.01558 20.1165Z" fill="black"/>
+                      </svg>
+                      </a>
 									</div>
 									<div className="ser_box-2">
 										<h5>02</h5>
 										<p>Small acts can tranform the world</p>
-										<a href="#">Corporate Responsibility <span><h2 className='uparrow-lft-abv'><span></span></h2></span></a>
+										<a href="#">Corporate Responsibility 
+                      <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.01558 20.1165L8.78335 21.8842L19.39 11.2776L19.39 21.0004H21.9002V6.99964H7.89947L7.89947 9.50987L17.6222 9.50987L7.01558 20.1165Z" fill="black"/>
+                      </svg>
+                    </a>
 									</div>
 									<div className="ser_box-3">
 										<h5>03</h5>
 										<p>Whatever it takes to encourage our people</p>
-										<a href="#">Culture <span><h2 className='uparrow-lft-abv'><span></span></h2></span></a>
+										<a href="#">Culture
+                      <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.01558 20.1165L8.78335 21.8842L19.39 11.2776L19.39 21.0004H21.9002V6.99964H7.89947L7.89947 9.50987L17.6222 9.50987L7.01558 20.1165Z" fill="black"/>
+                      </svg>
+                    </a>
 									</div>
 								</div>
-								<div className="services-provide-section common-pad">
+								<div className="services-provide-section common-pad" data-aos="fade-up">
 									<div className="service-portal">
 										<h4>OUR SERVICES</h4>
 										<div className="srv-detail">
@@ -52,39 +64,57 @@ export default class services extends Component {
 												<a href="#">Get in touch <span><img src={RightArrow} alt="txt"/></span></a>
 											</div>
 										</div>
-										<div className="all-services">
+										<div className="all-services" data-aos="fade-up">
 											<div className="provide_srv">
-												<a href="#"><p className='uparrow-lft'><span></span></p>
-													<h2>Engineering</h2>
+												<a href="#">
+                          <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.01558 20.1165L8.78335 21.8842L19.39 11.2776L19.39 21.0004H21.9002V6.99964H7.89947L7.89947 9.50987L17.6222 9.50987L7.01558 20.1165Z" fill="black"/>
+                          </svg>
+                          <h2>Engineering</h2>
 												</a>
 												<p>Cras habitant quisque pellentes pellentesque aliquam.</p>
 											</div>
 											<div className="provide_srv">
-												<a href="#"><p className='uparrow-lft'><span></span></p>
+												<a href="#">
+                          <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.01558 20.1165L8.78335 21.8842L19.39 11.2776L19.39 21.0004H21.9002V6.99964H7.89947L7.89947 9.50987L17.6222 9.50987L7.01558 20.1165Z" fill="black"/>
+                          </svg>
 													<h2>Digital Transformation </h2>
 												</a>
 												<p>Cras habitant quisque pellentes pellentesque aliquam.</p>
 											</div>
 											<div className="provide_srv">
-												<a href="#"><p className='uparrow-lft'><span></span></p>
+												<a href="#">
+                          <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.01558 20.1165L8.78335 21.8842L19.39 11.2776L19.39 21.0004H21.9002V6.99964H7.89947L7.89947 9.50987L17.6222 9.50987L7.01558 20.1165Z" fill="black"/>
+                          </svg>
 													<h2>Emerging Technologies</h2>
 												</a>
 												<p>Cras habitant quisque pellentes pellentesque aliquam.</p>
 											</div>
 											<div className="provide_srv">
-												<a href="#"><p className='uparrow-lft'><span></span></p>
+												<a href="#">
+                          <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.01558 20.1165L8.78335 21.8842L19.39 11.2776L19.39 21.0004H21.9002V6.99964H7.89947L7.89947 9.50987L17.6222 9.50987L7.01558 20.1165Z" fill="black"/>
+                          </svg>
 													<h2>Cloud & DevOps</h2>
 												</a>
 												<p>Cras habitant quisque pellentes pellentesque aliquam.</p>
 											</div>
 											<div className="provide_srv">
-												<a href="#"><p className='uparrow-lft'><span></span></p>
+												<a href="#">
+                          <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.01558 20.1165L8.78335 21.8842L19.39 11.2776L19.39 21.0004H21.9002V6.99964H7.89947L7.89947 9.50987L17.6222 9.50987L7.01558 20.1165Z" fill="black"/>
+                          </svg>
 													<h2>Augmentation</h2>
 												</a>
 												<p>Cras habitant quisque pellentes pellentesque aliquam.</p>
 											</div>
 											<div className="provide_srv">
-												<a href="#"><p className='uparrow-lft'><span></span></p>
+												<a href="#">
+                          <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.01558 20.1165L8.78335 21.8842L19.39 11.2776L19.39 21.0004H21.9002V6.99964H7.89947L7.89947 9.50987L17.6222 9.50987L7.01558 20.1165Z" fill="black"/>
+                          </svg>
 													<h2>Quality Engineering</h2>
 												</a>
 												<p>Cras habitant quisque pellentes pellentesque aliquam.</p>
