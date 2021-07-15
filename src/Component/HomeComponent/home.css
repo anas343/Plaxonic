@@ -80,7 +80,7 @@
 	top: 120px;
 }
 .common-pad {
-	padding-top: 70px;
+	padding-top: 100px;
 }
 .services-section .service-detail h2 {
 	font-size: 16px;
@@ -210,7 +210,7 @@
 
 .services-provide-section .all-services .provide_srv {
 	width: 33%;
-	padding-bottom: 20px;
+	padding-bottom: 35px;
 }
 .project-succ .project-services h2 {
 	color: #fff;
@@ -462,10 +462,11 @@ button.slider-count-btn {
 	padding: 40px 30px;
 }
 .img-dept-content img {
-	width: 100%;
+	width: 60%;
 }
 .dept-detail .img-dept-content {
     width: 50%;
+	text-align: right;
 }
 .career-section .dept-detail {
 	display: flex;
@@ -665,7 +666,16 @@ button.slider-count-btn {
 	.hm-hero-section .stock_txt-content {
 		top: -110px;
 	}
+	
+	.img-dept-content img {
+		width: 70%;
+	}
 
+}
+@media (max-width:1500px) {
+	.img-dept-content img {
+		width: 90%;
+	}
 }
 
 @media (max-width: 1366px) {
@@ -684,6 +694,10 @@ button.slider-count-btn {
 	}
 	.hm-hero-section .stock-video-description {
 		top: 90px;
+	}
+
+	.img-dept-content img {
+		width: 100%;
 	}
 }
 @-webkit-keyframes fadeInUpSD {
