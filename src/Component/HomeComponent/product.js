@@ -103,7 +103,7 @@ export default class product extends Component {
         return (
 					<>
 						<div className="product_details-section  common-pad">
-							<div className="container product_desc-detail">
+							<div className="container product_desc-detail" data-aos="fade-up">
 								<div className="product-content">
 									<h5>the plaxonic difference</h5>
 									<h2>Explore our Products</h2>

@@ -9,15 +9,18 @@ export default class bannerslider extends Component {
 	
 	render() {
 		const settings = {
-			autoplay: true,
-			autoplaySpeed: 3000,
-			arrows: false,
 			dots: false,
+			draggable: false,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
 			fade: true,
-			speed: 500,
-			infinite: true,
-			fade: !0,
-      cssEase: 'linear',
+			arrow:false,
+      autoplaySpeed: 8000,
+      cssEase: "linear",
+			adaptiveHeight: false
 		};
 		
 		return (

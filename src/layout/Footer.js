@@ -41,7 +41,7 @@ export default class Footer extends Component {
     render() {
         return (
           <div className="footer-background">
-						<div className="footer-content container">
+						<div className="footer-content container" data-aos="fade-down">
 							<div className="footer-main-content">
 								<div className="footer-list">
 									<ul>

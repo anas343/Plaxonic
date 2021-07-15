@@ -124,7 +124,7 @@ export default class services extends Component {
 								</div>
 							</div>
 							<div className="project-succ">
-								<div className="container delivered-services"> 
+								<div className="container delivered-services" data-aos="fade-up"> 
 									<h2>Numbers that matter</h2>
 									<p>Feugiat fermentum eget suscipit sollicitudin molestie es posuere maecenas facili sis elit integer.</p>
 									<div className="project-count">

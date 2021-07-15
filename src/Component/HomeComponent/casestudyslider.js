@@ -166,7 +166,7 @@ export default class casestudyslider extends Component {
 						<div className="case-study-section  common-pad">
 							<div className="container case-study">
 								<div className="case-stories">
-									<div className="story-grid">
+									<div className="story-grid" data-aos="fade-up">
 										<img src={CaseImage1} alt="case-img" className='cmn-std-width' />
 										<div className="story-txt">
 											<h5>knowledge base</h5>
@@ -182,7 +182,7 @@ export default class casestudyslider extends Component {
 								<Slider ref={c => (this.slider = c)} {...settings}>
 										{ sliderElements.map((element) => (										
 										<div className="slider">
-											<div className="slider__item case-std-img">
+											<div className="slider__item case-std-img" data-aos="fade-up">
 												<img src={element.src} alt="product-first"/>
 													<a href='#' className='case-sty-txt'>{element.customTxt}</a>
 												<div className="case-std-content">
