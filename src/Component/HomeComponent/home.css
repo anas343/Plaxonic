@@ -767,7 +767,7 @@ button.slider-count-btn {
   
   .slick-active .slide-content {
 	animation-name: fadeInUpSD;
-	animation-duration: 15s;
+	animation-duration: 10s;
 	opacity: 1;
 	width: 100%;
   }
