@@ -137,7 +137,7 @@
 	color: #000;
 	font-size: 18px;
 	font-weight: 500;
-	padding: 20px 30px;
+	padding: 20px 45px 20px 30px;
 	text-decoration: none;
 }
 .services-section .about-service-desc span {
@@ -170,7 +170,7 @@
 
 .services-provide-section .service-btn a {
 	background:  #1BA3DD;
-	padding: 30px 35px;
+	padding: 25px 32px 25px 25px;
 	text-decoration: none;
 	color: #fff;
 	position: relative;
@@ -184,6 +184,8 @@
 }
 .service-btn a img {
 	transition: all .3s ease;
+	position: relative;
+	left: 10px;
 }
 .all-services .provide_srv a h2 {
 	color: #000;
@@ -411,7 +413,7 @@ button.slider-count-btn {
 	color: #fff;
 	text-decoration: none;
 	font-size: 18px;
-	padding: 25px 30px;
+	padding: 25px 32px 25px 25px;
 	position: relative;
 	top: 2px;
 }
@@ -435,10 +437,10 @@ button.slider-count-btn {
 }
 .case-study-slider .slider__item.case-std-img .case-sty-txt{
 	position: absolute;
-    top: 27%;
+    top: 27.5%;
     color: #fff;
     background: #1BA3DD;
-    padding: 15px 30px;
+    padding: 15px 35px;
     font-size: 16px;
 	text-decoration: none;
 }
@@ -523,9 +525,21 @@ button.slider-count-btn {
 	position: relative;
 }
 .team-section  .common-obj-wdt img {
-	width: 120px;
+	width: 100px;
 	border-radius: 50%;
 	border: 10px solid #fff;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+.team-section  .common-obj-lft img {
+	width: 80px;
+	border-radius: 50%;
+	border: 6px solid #fff;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+.team-section  .common-obj-rht img {
+	width: 90px;
+	border-radius: 50%;
+	border: 8px solid #fff;
 	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
 }
 .team-section .left-sec-img {
@@ -545,7 +559,7 @@ button.slider-count-btn {
 .team-section .connect-team h2 {
 	font-size: 36px;
 	font-weight: bold;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 .team-section .connect-team p {
 	font-weight: normal;
@@ -557,9 +571,9 @@ button.slider-count-btn {
 	background: #1BA3DD;
 	color: #fff;
 	text-decoration: none;
-	padding: 20px 25px;
+	padding: 25px 32px 25px 25px;
 	position: relative;
-	top: 40px;
+	top: 50px;
 	font-size: 18px;
 }
 .team-section .connect-team a img {
@@ -637,7 +651,7 @@ button.slider-count-btn {
 .services-section .about-service-desc svg {
 	transition: all .3s ease;
 	position: relative;
-	left: 10px;
+	left: 15px;
 }
 .services-section .about-service-desc a:hover svg  {
 	transform: rotate(45deg);
@@ -664,7 +678,7 @@ button.slider-count-btn {
 .container.buss-grid .connect-with-us a {
 	background: #fff;
     color: #0190CD;
-    padding: 18px 25px;
+    padding: 25px 32px 25px 25px;
     font-size: 18px;
     font-weight: 500;
 	text-decoration: none;	

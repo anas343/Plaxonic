@@ -31,6 +31,10 @@ a.nav-link.header_list:hover {
 }
 .get_in_touch a:hover span img {
 	transform: rotate(45deg);
+	transition: all .3s ease;
+}
+.get_in_touch a span img {
+	transition: all .3s ease;
 }
 .contain {
   margin: 0 auto;

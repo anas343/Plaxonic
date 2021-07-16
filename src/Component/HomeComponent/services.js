@@ -27,11 +27,13 @@ export default class services extends Component {
 									<div className="ser_box-1">
 										<h5>01</h5>
 										<p>Our Diversity Is Our Strength</p>
-										<a href="#">Overview 
-											<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path d="M0.491384 10.9497L1.9056 12.3639L10.3909 3.87863V11.6568H12.3991V0.456233H1.19849V2.46442H8.97667L0.491384 10.9497Z" fill="black"/>
-											</svg>
-                    </a>
+										<div className='common-pd-btn'>
+											<a href="#">Overview 
+												<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0.491384 10.9497L1.9056 12.3639L10.3909 3.87863V11.6568H12.3991V0.456233H1.19849V2.46442H8.97667L0.491384 10.9497Z" fill="black"/>
+												</svg>
+											</a>
+										</div>
 									</div>
 									<div className="ser_box-2">
 										<h5>02</h5>

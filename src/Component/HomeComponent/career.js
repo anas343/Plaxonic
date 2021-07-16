@@ -43,10 +43,10 @@ export default class career extends Component {
 										<img src= {developerImage} alt/>
 									</div>
 								</div>
-								<div className='left-sec-img common-obj-wdt'>
+								<div className='left-sec-img common-obj-lft'>
 									<img src={designerImage} alt=''/>
 								</div>
-								<div className='rght-sec-img common-obj-wdt'>
+								<div className='rght-sec-img common-obj-rht'>
 						   		<img src={perosnImage} alt=''/>
 								</div>
 							</div>
