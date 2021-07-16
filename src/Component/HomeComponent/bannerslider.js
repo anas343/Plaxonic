@@ -18,7 +18,7 @@ export default class bannerslider extends Component {
       speed: 2000,
 			fade: true,
 			arrow:false,
-      autoplaySpeed: 8000,
+      autoplaySpeed: 7000,
       cssEase: "linear",
 			adaptiveHeight: false
 		};
