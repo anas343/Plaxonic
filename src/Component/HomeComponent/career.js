@@ -4,8 +4,10 @@ import Quote from '../../assests/quotes.png'
 import Twitter from '../../assests/twitter.svg'
 import Linkdein from '../../assests/linkdein.svg'
 import arrow from '../../assests/right_arrow.svg'
-import circle from '../../assests/circle.png'
+import developerImage from '../../assests/person2.jpg'
 import connectarrow from '../../assests/bl_arrow.svg'
+import designerImage from '../../assests/person1.jpg'
+import perosnImage from '../../assests/person3.jpg'
 
 export default class career extends Component {
     render() {
@@ -37,9 +39,15 @@ export default class career extends Component {
 										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi</p>
 										<a href="#">Check current opening <span><img src={arrow}/></span></a>
 									</div>
-									<div className="centr-team-img">
-										<img src= {circle} alt/>
+									<div className="centr-team-img common-obj-wdt">
+										<img src= {developerImage} alt/>
 									</div>
+								</div>
+								<div className='left-sec-img common-obj-wdt'>
+									<img src={designerImage} alt=''/>
+								</div>
+								<div className='rght-sec-img common-obj-wdt'>
+						   		<img src={perosnImage} alt=''/>
 								</div>
 							</div>
 							<div className="grow_bussiness">

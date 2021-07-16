@@ -137,7 +137,7 @@
 	color: #000;
 	font-size: 18px;
 	font-weight: 500;
-	padding: 15px 30px 15px 15px;
+	padding: 20px 30px;
 	text-decoration: none;
 }
 .services-section .about-service-desc span {
@@ -280,10 +280,11 @@
 }
 
 .product_desc-detail .product-content {
-	width: 33%;
+	width: 34%;
 	margin: auto;
 	position: relative;
 	top: -20px;
+	left: 10px;
 }
 .product_desc-detail .product-slider {
 	width: 66%;
@@ -337,17 +338,18 @@
 button.button.back-btn {
 	background: #0190CD;
     border: none;
-    padding: 17px 30px;
+    padding: 25px 25px;
     border-right: 1px solid #fff;
+	font-size: 16px;
 }
 
 button.slider-count-btn {
     background: #1BA3DD;
     border: none;
-    padding: 14px 28px 17px 28px;
+    padding: 25px 15px;
     color: #fff;
 	cursor: none;
-	font-size: 18px;
+	font-size: 16px;
 }
 .slider-control-btn {
 	float: right;
@@ -361,10 +363,10 @@ button.slider-count-btn {
 	width: 100%;
 }
 .case-study-section .case-study .case-stories {
-	width: 33.5%;
+	width: 34%;
 }
 .case-study-section .case-study .case-study-slider {
-	width: 65%;
+	width: 66%;
 }
 .case-stories .story-grid {
 	position: relative;
@@ -375,7 +377,7 @@ button.slider-count-btn {
 	background-color: #fff;
 	padding: 65px 40px;
 	min-height: 295px;
-	top: 40%;
+	top: 40.5%;
 	left: -10%;
 }
 .case-study-section {
@@ -409,9 +411,9 @@ button.slider-count-btn {
 	color: #fff;
 	text-decoration: none;
 	font-size: 18px;
-	padding: 17px 20px;
+	padding: 25px 30px;
 	position: relative;
-	top: -4px;
+	top: 2px;
 }
 .services-provide-section {
 	padding-top: 80px;
@@ -518,6 +520,23 @@ button.slider-count-btn {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center bottom;
+	position: relative;
+}
+.team-section  .common-obj-wdt img {
+	width: 120px;
+	border-radius: 50%;
+	border: 10px solid #fff;
+	filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+.team-section .left-sec-img {
+	position: absolute;
+	top: 55%;
+	left: 5%;
+}
+.team-section .rght-sec-img {
+	position: absolute;
+	right: -20px;
+	top: 30%;
 }
 .team-section .connect-team {
 	text-align: center;

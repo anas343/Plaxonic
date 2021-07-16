@@ -28,27 +28,27 @@ export default class services extends Component {
 										<h5>01</h5>
 										<p>Our Diversity Is Our Strength</p>
 										<a href="#">Overview 
-                      <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M7.01558 20.1165L8.78335 21.8842L19.39 11.2776L19.39 21.0004H21.9002V6.99964H7.89947L7.89947 9.50987L17.6222 9.50987L7.01558 20.1165Z" fill="black"/>
-                      </svg>
-                      </a>
+											<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0.491384 10.9497L1.9056 12.3639L10.3909 3.87863V11.6568H12.3991V0.456233H1.19849V2.46442H8.97667L0.491384 10.9497Z" fill="black"/>
+											</svg>
+                    </a>
 									</div>
 									<div className="ser_box-2">
 										<h5>02</h5>
 										<p>Small acts can tranform the world</p>
 										<a href="#">Corporate Responsibility 
-                      <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M7.01558 20.1165L8.78335 21.8842L19.39 11.2776L19.39 21.0004H21.9002V6.99964H7.89947L7.89947 9.50987L17.6222 9.50987L7.01558 20.1165Z" fill="black"/>
-                      </svg>
+										  <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0.491384 10.9497L1.9056 12.3639L10.3909 3.87863V11.6568H12.3991V0.456233H1.19849V2.46442H8.97667L0.491384 10.9497Z" fill="black"/>
+											</svg>
                     </a>
 									</div>
 									<div className="ser_box-3">
 										<h5>03</h5>
 										<p>Whatever it takes to encourage our people</p>
 										<a href="#">Culture
-                      <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M7.01558 20.1165L8.78335 21.8842L19.39 11.2776L19.39 21.0004H21.9002V6.99964H7.89947L7.89947 9.50987L17.6222 9.50987L7.01558 20.1165Z" fill="black"/>
-                      </svg>
+									   	<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0.491384 10.9497L1.9056 12.3639L10.3909 3.87863V11.6568H12.3991V0.456233H1.19849V2.46442H8.97667L0.491384 10.9497Z" fill="black"/>
+											</svg>
                     </a>
 									</div>
 								</div>
