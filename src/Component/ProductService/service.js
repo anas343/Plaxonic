@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import ServiceBanner from './service_banner'
+import '../../layout/font-family/libra_franklin.css'
 import MobileAppSection from './mobile_apps'
+import DevlopProcess from './producDev'
 import './service.css'
 
 export default class service extends Component {
@@ -14,6 +16,10 @@ export default class service extends Component {
 					{/* Mobile App  Component */}
 						<MobileAppSection/>
 					{/* Mobile App End*/}
+
+					{/* App Developement Component */}
+						<DevlopProcess/>
+					{/* App End */}
 				</>
 			)
     }
