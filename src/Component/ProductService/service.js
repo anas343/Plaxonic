@@ -3,7 +3,9 @@ import ServiceBanner from './service_banner'
 import '../../layout/font-family/libra_franklin.css'
 import MobileAppSection from './mobile_apps'
 import DevlopProcess from './producDev'
+import CmnLayout from '../../layout/common_component'
 import './service.css'
+
 
 export default class service extends Component {
     render() {
@@ -20,6 +22,10 @@ export default class service extends Component {
 					{/* App Developement Component */}
 						<DevlopProcess/>
 					{/* App End */}
+
+					{/* Common Component */}
+						<CmnLayout/>
+					{/* Common Component end */}
 				</>
 			)
     }

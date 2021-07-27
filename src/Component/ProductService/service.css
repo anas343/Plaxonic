@@ -78,6 +78,13 @@
 	background: #1BA3DD;
 	font-size: 18px;
 }
+.app_development_section  .request-proposal a:hover span img {
+	transform: rotate(45deg);
+  transition: all .3s ease;
+}
+.app_development_section  .request-proposal a span img {
+	transition: all .3s ease;
+}
 .app_development_section  .request-proposal a span {
 	position: relative;
 	left: 10px;
@@ -86,6 +93,9 @@
 	background: #2A333A;
 	width: 49%;
 	margin-top: 25px;
+}
+.app_section-grid .common_app_boxes .app_box-1:hover {
+	background: #1BA3DD;
 }
 .app_section-grid .common_app_boxes .box-aap-content {
 	padding: 40px 20px 10px 40px;
@@ -186,6 +196,17 @@
 	top: 80px;
 }
 
+@media (max-width: 1500px) and (min-width: 1366px) {
+	.dotted-line-section .stage-number {
+		padding: 0 90px;
+	}
+	.dotted-line-section .stage1.blk-color {
+		top: 7px;
+	}
+	.dotted-line-section {
+		margin: 40px 0 10px 0;
+	}
+}
 
 @media (min-width: 1600px) {
 	.tech-section .tech-txt-content {
@@ -194,6 +215,15 @@
 	.tech-banner-section {
 		padding: 230px 0;
 		background-position: center top;
+	}
+	.dotted-line-section .stage-number {
+		padding: 0 170px;
+	}
+	.dotted-line-section .stage1.blk-color {
+		top: 43px;
+	}
+	.dotted-line-section {
+		margin: 40px 0;
 	}
 }
 
@@ -206,7 +236,7 @@
 .mob-excps-section .engage-services .develop-services {
 	width: 33.33%;
 	padding-right: 35px;
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 }
 .mob-excps-section .engage-services .develop-services h3 {
 	font-style: normal;
@@ -241,7 +271,7 @@
 	font-weight: normal;
 	font-size: 18px;
 	color: #000;
-	margin: 25px 0 40px 0;
+	margin: 25px 0 80px 0;
 }
 .dvp-services-section {
 	background: #F5F5F5;
@@ -249,12 +279,29 @@
 
 .app-process-stage .process-build {
     display: flex;
-    flex-wrap: wrap;
+		width: 100%;
+		box-sizing: border-box;
+		justify-content: space-around;
 }
 .app-process-stage .process-build .build-process-image {
+	padding-right: 60px;
+  text-align: center;
+	position: relative;
+	right: 60px;
+}
+.build-process-image.relat-lft {
+	position: relative;
+	left: 130px;
+}
+.build-last-process {
 	width: 33.33%;
 	padding-right: 100px;
   text-align: center;
+	position: relative;
+	right: 20px;
+}
+.container.mob-excps-section.common-pad {
+	padding-bottom: 40px;
 }
 .app-build-process h2 {
 	font-style: normal;
@@ -267,7 +314,7 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
-	margin: 25px 0 40px 0;
+	margin: 25px 0 80px 0;
 	color: #000;
 }
 
@@ -284,8 +331,9 @@
 	font-weight: normal;
 	font-size: 16px;
 	color: #000;
-	margin: 10px 0;
+	margin: 0 auto;
 	padding: 0 25px;
+	max-width: 255px;
 }
 
 .srvs-slider-section {
@@ -295,7 +343,7 @@
 	position: absolute;
 	bottom: 60px;
   color: #fff;
-  padding-left: 210px;
+  padding-left: 150px;
 }
 
 .srvs-slider-section .content-desc h2 {
@@ -323,11 +371,49 @@
 }
 .srvs-slider-section .case-sld-btns svg {
 	cursor: pointer;
+	transition: all .3s ease;
+}
+.srvs-slider-section .previous-rht-btn svg:hover {
+	transition: all .3s ease;
+	transform: rotate(45deg);
+}
+.srvs-slider-section .previous-lft-btn svg:hover {
+	transition: all .3s ease;
+	transform: rotate(-45deg);
 }
 .dotted-line-section {
 	background: url('../../assests/Frame (1).png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	padding: 100px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
 }
-
+.dotted-line-section .stage1 {
+	display: inline;
+	padding: 30px;
+	border-radius: 50%;
+	position: relative;
+	z-index: -9999;
+}
+.dotted-line-section .stage1.blu-clr {
+	background: #1BA3DD;
+}
+.dotted-line-section .stage1.blk-color {
+	background: #2A333A;
+	position: relative;
+}
+.dotted-line-section .stage1 span {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	color: #fff;
+}
+.dotted-line-section .stage-number {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-around;
+	position: relative;
+	top: -25px;
+	left: 4px;
+}

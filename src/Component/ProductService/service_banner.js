@@ -9,11 +9,11 @@ export default class service_banner extends Component {
 					<div className='container'>
 						<div className='service-content'>
 							<span><img src={home} alt='home-icon'/> </span>
-							<ul>
+							<ul  data-aos="fade-up">
 								<li>Services</li>
 								<li>Engineering</li>
 								<li>Mobile apps development</li>
-							</ul>
+							</ul>	
 						</div>
 					</div>
 				</div>

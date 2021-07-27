@@ -5,7 +5,6 @@ import Twitter from '../../assests/twitter.svg'
 import Linkdein from '../../assests/linkdein.svg'
 import arrow from '../../assests/right_arrow.svg'
 import developerImage from '../../assests/person2.jpg'
-import connectarrow from '../../assests/bl_arrow.svg'
 import designerImage from '../../assests/person1.jpg'
 import perosnImage from '../../assests/person3.jpg'
 
@@ -50,17 +49,6 @@ export default class career extends Component {
 						   		<img src={perosnImage} alt=''/>
 								</div>
 							</div>
-							<div className="grow_bussiness">
-								<div className="container buss-grid">
-									<div className="txt-sec" data-aos="fade-up">
-										<h1>Are you ready to start building your modern digital business?</h1>
-										<p>Cras habitant quisque pellentesque pellentesque aliquam.</p>
-									</div>
-									<div className="connect-with-us" data-aos="fade-up"> 
-										<a href="">Connect with us <span><img src={connectarrow} alt=""/></span></a>
-									</div>
-								</div>
-							</div>	
 						</div>
 					</>
         )

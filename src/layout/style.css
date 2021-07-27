@@ -1,0 +1,50 @@
+.grow_bussiness {
+	background-color: #1BA3DD;
+}
+
+.grow_bussiness .txt-sec h1 {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	color: #fff;
+	max-width: 630px;
+}
+.grow_bussiness .txt-sec p  {
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+	max-width: 600px;
+}
+.container.buss-grid {
+	display: flex;
+	padding-top: 100px;
+	padding-bottom: 90px;
+	width: 100%;
+	margin-top: -20px;
+	flex-wrap: wrap;
+}
+.container.buss-grid .txt-sec {
+	width: 60%;
+}
+.container.buss-grid .connect-with-us {
+	width: 40%;
+	text-align: right;
+	margin: auto;
+}
+.connect-with-us a:hover img {
+	transform: rotate(45deg);
+	transition: all .3s ease;
+}
+.connect-with-us a img {
+	transition: all .3s ease;
+}
+.all-services .provide_srv .uparrow-lft {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 4px;
+	transform: rotate(-90deg);
+	position: relative;
+	top: 15px;
+  left: 6px;
+}

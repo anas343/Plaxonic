@@ -152,14 +152,14 @@ export default class producDev extends Component {
 			<>
 				<div className='dvp-services-section'> 
 					<div className='container mob-excps-section common-pad'>
-						<div className='exp-mob-hd'>
+						<div className='exp-mob-hd' data-aos="fade-up">
 							<h3>Develop engaging mobile experiences</h3>
 							<p>Besides offering a full range of app development services, we help you in creating next generation high performing and feature-packed apps with innovative services.</p>
 						</div>
 						<div className='engage-services'>
 							{ DevlopServices.map((element) => ( 
-								<div className='develop-services'>
-									<div className='dev-prd-image'>
+								<div className='develop-services' data-aos="fade-up">
+									<div className='dev-prd-image' data-aos="fade-up">
 										<img src={element.image} alt=''/>
 									</div>
 									<h3>{element.head}</h3>
@@ -171,14 +171,14 @@ export default class producDev extends Component {
 				</div>
 
 				<div className='app-build-process common-pad'>
-					<div className= 'container'>
+					<div className= 'container' data-aos="fade-up">
 						<h2>Our app development process</h2>
 						<p>Our app development process ensures operational efficiency, cost-effectiveness, and overall market standing while creating engaging apps irrespective of what device plan our clients come with.</p>
 						<div className='app-process-stage'>
-							<div className='process-build'>
+							<div className='process-build' data-aos="fade-up"> 
 								{ InitialDevProcess.map((element) => ( 
 								<div className='build-process-image'>
-									<img src={element.image} alt='' />
+									<img src={element.image} alt=''  data-aos="fade-up"/>
 									<h3>{element.title}</h3>
 									<p>{element.desc}</p>
 								</div>
@@ -188,14 +188,33 @@ export default class producDev extends Component {
 					</div>
 
 					<div className='dotted-line-section'>
-					
+						<div className='container-fluid stage-number'>
+							<div className='stage1 blu-clr'  data-aos="fade-up">
+								<span>01</span>
+							</div>
+							<div className='stage1 blk-color' data-aos="fade-up">
+								<span>02</span>
+							</div>
+							<div className='stage1 blu-clr' data-aos="fade-up">
+								<span>03</span>
+							</div>
+							<div className='stage1 blk-color' data-aos="fade-up">
+								<span>04</span>
+							</div>
+							<div className='stage1 blu-clr' data-aos="fade-up">
+								<span>05</span>
+							</div>
+							<div className='stage1 blk-color' data-aos="fade-up">
+								<span>06</span>
+							</div>
+						</div>
 					</div>
 					<div className='container'>
 						<div className='app-process-stage'>
-							<div className='process-build'>
+							<div className='process-build' data-aos="fade-up">
 								{ LstDevProcess.map((element) => ( 
-								<div className='build-process-image'>
-									<img src={element.image} alt='' />
+								<div className='build-process-image relat-lft'>
+									<img src={element.image} alt='' data-aos="fade-up" />
 									<h3>{element.title}</h3>
 									<p>{element.desc}</p>
 								</div>
@@ -211,7 +230,7 @@ export default class producDev extends Component {
 						<div className="slider">
 							<div className="slider__item">
 								<img src={element.src} alt="product-first"/>
-								<div className="content-desc">
+								<div className="content-desc" data-aos="fade-up">
 									<h2>{element.title}</h2>
 									<p>{element.desc}</p>
 								</div>
@@ -219,7 +238,7 @@ export default class producDev extends Component {
 						</div>
 						))}
 					</Slider>
-					<div className="case-sld-btns">
+					<div className="case-sld-btns" data-aos="fade-up">
 						<div className='previous-lft-btn'>
 							<svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg"  onClick={this.previous}>
 								<path d="M29.9688 26.9019L26.4333 30.4374L5.22009 9.22422L5.22009 28.6697H0.199638V0.66823H28.2011L28.2011 5.68869L8.75563 5.68869L29.9688 26.9019Z" fill="white"/>

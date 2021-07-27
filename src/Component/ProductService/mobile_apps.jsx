@@ -7,7 +7,7 @@ import mobile from '../../assests/ios.svg'
 import SmartTv from '../../assests/smart-tv.svg'
 import SmartPhone from '../../assests/smartphone.svg'
 import SmartWatch from '../../assests/smartwatch.png'
-import Tablet from '../../assests/tablet.svg'
+import Tablet from '../../assests/smartwatch.png'
 
 const AppDevelopment = [
 		{
@@ -41,11 +41,11 @@ export default class mobile_apps extends Component {
 					<>
 						<div className='container app_development_section common-pad'>
 							<div className='app_txt-section'>
-								<div className='head-txt-section'>
+								<div className='head-txt-section'  data-aos="fade-up">
 									<h2>Mobile apps development</h2>
 									<p>We build powerful, scalable, interactive and high quality app solutions to boost your mobile existence and impact on your smart growth.</p>
 								</div>
-								<div className='request-proposal'>
+								<div className='request-proposal'  data-aos="fade-up">
 									<a href='#'>Request a proposal <span><img src= {arrow}/></span></a>
 								</div>
 							</div>
@@ -53,7 +53,7 @@ export default class mobile_apps extends Component {
 								<div className= 'common_app_boxes'>
 									{ AppDevelopment.map((element) => ( 
 										<div className='app_box-1'>
-											<div className='box-aap-content'>
+											<div className='box-aap-content' data-aos="fade-up">
 												<img src= {element.image} alt=''/>
 												<h3>{element.title}</h3>
 												<p>{element.desc}</p>
@@ -62,30 +62,30 @@ export default class mobile_apps extends Component {
 									))}
 								</div>
 								<div className='aaps-development-section common-pad'>
-									<div className='apps-devlopment-grid'>
+									<div className='apps-devlopment-grid' data-aos="fade-up">
 										<h2>App development for the whole ecosystem</h2>
 										<p>Our Application Development not only covers Smartphones but also focus on Tablets, Wearables, and Smart TV from concept to a myriad of post launch services.</p>
 										<div className='grid-ecosystem'>
 											<div className='grid-eco1'>
-												<div className='grid-img-content'>
+												<div className='grid-img-content' data-aos="fade-up">
 													<img src={SmartPhone} alt=''/>
 													<span>Smartphone</span>
 												</div>
 											</div>
 											<div className='grid-eco1'>
-												<div className='grid-img-content'>
+												<div className='grid-img-content' data-aos="fade-up">
 													<img src={Tablet} alt=''/>
 													<span>Tablet</span>
 												</div>
 											</div>
 											<div className='grid-eco1'>
-												<div className='grid-img-content'>
+												<div className='grid-img-content' data-aos="fade-up">
 													<img src={SmartTv} alt=''/>
 													<span>Smart TV</span>
 												</div>
 											</div>
 											<div className='grid-eco1'>
-												<div className='grid-img-content'>
+												<div className='grid-img-content ' data-aos="fade-up">
 													<img src={SmartWatch} alt=''/>
 													<span>Wearable</span>
 												</div>
@@ -98,7 +98,7 @@ export default class mobile_apps extends Component {
 						<div className='tech-section common-pad'>
 							<div className='tech-banner-section'>
 								<div className='container'>
-									<div className='tech-txt-content'> 
+									<div className='tech-txt-content' data-aos="fade-up"> 
 										<h4>Technology stack we base our apps on!</h4>
 										<p>Our strategic thinkers and tech geeks are proficient at working around the different Technology Stack, Design Methodology, UI/UX, and users expectations every device comes with.</p>
 									</div>

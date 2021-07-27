@@ -7,6 +7,7 @@ import Services from '../HomeComponent/services'
 import Product from '../HomeComponent/product'
 import CaseStudy from '../HomeComponent/casestudyslider'
 import Career from '../HomeComponent/career'
+import CmnLayout from '../../layout/common_component'
 
 
 	import React, { Component } from 'react'
@@ -35,6 +36,10 @@ import Career from '../HomeComponent/career'
 					{/* Career Component */}
 						<Career/>
 					{/* Career Component End */}
+
+					{/* Common Component */}
+						<CmnLayout/>
+					{/* Common Component end */}
 
 				</div>
 			)
