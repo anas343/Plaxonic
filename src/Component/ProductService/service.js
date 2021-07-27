@@ -8,6 +8,11 @@ import './service.css'
 
 
 export default class service extends Component {
+
+	componentDidMount() {
+		document.title = this.props.title;
+	}
+
     render() {
 			return (
 				<>

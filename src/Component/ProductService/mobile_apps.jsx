@@ -7,17 +7,17 @@ import mobile from '../../assests/ios.svg'
 import SmartTv from '../../assests/smart-tv.svg'
 import SmartPhone from '../../assests/smartphone.svg'
 import SmartWatch from '../../assests/smartwatch.png'
-import Tablet from '../../assests/smartwatch.png'
+import Tablet from '../../assests/tablet.svg'
 
 const AppDevelopment = [
 		{
-			image: mobile,
+			image:  hybrid,
 			title: 'Mobile App Consultancy',
 			desc: 'Strategic Product Definition, Business and Market Insights, Concept Validation, Features Prioritization, Usability Testing, Content Strategy, Data Opportunity Strategy'
 		},
 
 		{
-			image: android,
+			image:  mobile,
 			title: 'Android App Development',
 			desc: 'Extensive experience in native Android development ensures that we create high quality apps to increase your customer base by millions.'
 		},
@@ -29,7 +29,7 @@ const AppDevelopment = [
 		},
 
 		{
-			image: hybrid,
+			image: android,
 			title: 'Hybrid App Development',
 			desc: 'We build cross-platform apps with tried and tested technologies that give the ability to leverage reusable code and go market faster on multiple platforms more economically.'
 		}

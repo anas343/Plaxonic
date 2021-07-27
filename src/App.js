@@ -10,6 +10,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from './Component/AboutComponent/about'
 import ProductService from './Component/ProductService/service'
 
+
+
 function App() {
 
   AOS.init({
@@ -19,19 +21,20 @@ function App() {
     mirror: false, // whether elements should animate out while scrolling past them
     debounceDelay: 100, // the delay on debounce used while resizing window (advanced)
   });
+  
   return (
     <>
     <Router>
       <Header/>
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home/>
         </Route>
         <Route exact path="/about">
-          <About />
+          <About  title='About'/>
         </Route>
         <Route exact path="/service">
-          <ProductService />
+          <ProductService title= 'Service' />
         </Route>
       </Switch>
       <Footer/>

@@ -8,7 +8,7 @@ export default class service_banner extends Component {
 				<div className='service-back'>
 					<div className='container'>
 						<div className='service-content'>
-							<span><img src={home} alt='home-icon'/> </span>
+							<span><img src={home} alt='home-icon' data-aos="fade-up" /> </span>
 							<ul  data-aos="fade-up">
 								<li>Services</li>
 								<li>Engineering</li>

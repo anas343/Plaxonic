@@ -93,9 +93,11 @@
 	background: #2A333A;
 	width: 49%;
 	margin-top: 25px;
+	transition: all .3s ease;
 }
 .app_section-grid .common_app_boxes .app_box-1:hover {
 	background: #1BA3DD;
+	transition: all .3s ease;
 }
 .app_section-grid .common_app_boxes .box-aap-content {
 	padding: 40px 20px 10px 40px;
@@ -205,6 +207,7 @@
 	}
 	.dotted-line-section {
 		margin: 40px 0 10px 0;
+		padding: 20px;
 	}
 }
 
@@ -224,9 +227,15 @@
 	}
 	.dotted-line-section {
 		margin: 40px 0;
+		padding: 20px;
 	}
 }
 
+@media (min-width: 2000px) {
+	.dotted-line-section {
+		padding: 50px;
+	}
+}
 
 .mob-excps-section .engage-services {
 	display: flex;
@@ -385,7 +394,6 @@
 	background: url('../../assests/Frame (1).png');
 	background-size: 100%;
     background-repeat: no-repeat;
-    padding: 20px;
 }
 .dotted-line-section .stage1 {
 	display: inline;

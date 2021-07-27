@@ -13,6 +13,11 @@ import CmnLayout from '../../layout/common_component'
 	import React, { Component } from 'react'
 	
 	export default class home extends Component {
+
+		componentDidMount() {
+			document.title= 'Plaxonic'
+		}
+
 		render() {
 			
 			return (

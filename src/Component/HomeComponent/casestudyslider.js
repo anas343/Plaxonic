@@ -119,7 +119,7 @@ export default class casestudyslider extends Component {
 				$('.case-std-content').height(highestBox);
 			}); 
 		});
-		window.addEventListener('load', this.handleLoad);
+	 this.handleLoad();
 	}
 	
 	
