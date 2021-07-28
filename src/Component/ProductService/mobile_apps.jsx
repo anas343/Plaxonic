@@ -39,7 +39,7 @@ export default class mobile_apps extends Component {
     render() {
         return (
 					<>
-						<div className='container app_development_section common-pad'>
+						<div className='container common-container-wdt  app_development_section common-pad'>
 							<div className='app_txt-section'>
 								<div className='head-txt-section'  data-aos="fade-up">
 									<h2>Mobile apps development</h2>
@@ -97,7 +97,7 @@ export default class mobile_apps extends Component {
 						</div>
 						<div className='tech-section common-pad'>
 							<div className='tech-banner-section'>
-								<div className='container'>
+								<div className='container common-container-wdt'>
 									<div className='tech-txt-content' data-aos="fade-up"> 
 										<h4>Technology stack we base our apps on!</h4>
 										<p>Our strategic thinkers and tech geeks are proficient at working around the different Technology Stack, Design Methodology, UI/UX, and users expectations every device comes with.</p>

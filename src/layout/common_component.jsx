@@ -7,7 +7,7 @@ export default class common_component extends Component {
 		return (
 			<>
 				<div className="grow_bussiness">
-					<div className="container buss-grid">
+					<div className="container common-container-wdt buss-grid">
 						<div className="txt-sec" data-aos="fade-up">
 							<h1>Are you ready to start building your modern digital business?</h1>
 							<p>Cras habitant quisque pellentesque pellentesque aliquam.</p>

@@ -6,7 +6,7 @@ export default class service_banner extends Component {
 		return (
 			<div className='prd-service-section'>
 				<div className='service-back'>
-					<div className='container'>
+					<div className='container common-container-wdt'>
 						<div className='service-content'>
 							<span><img src={home} alt='home-icon' data-aos="fade-up" /> </span>
 							<ul  data-aos="fade-up">

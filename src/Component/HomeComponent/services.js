@@ -11,7 +11,7 @@ export default class services extends Component {
     render() {
         return (
             <>
-							<div className="container services-section common-pad">
+							<div className="container common-container-wdt services-section common-pad">
 								<div className="service-detail" data-aos="fade-up">
 									<h2>ABOUT US</h2>
 									<div className= "about-section">
@@ -126,7 +126,7 @@ export default class services extends Component {
 								</div>
 							</div>
 							<div className="project-succ">
-								<div className="container delivered-services" data-aos="fade-up"> 
+								<div className="container common-container-wdt delivered-services" data-aos="fade-up"> 
 									<h2>Numbers that matter</h2>
 									<p>Feugiat fermentum eget suscipit sollicitudin molestie es posuere maecenas facili sis elit integer.</p>
 									<div className="project-count">

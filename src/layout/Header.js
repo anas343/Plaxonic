@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
-			<nav className="container navbar navbar-expand-lg">
-				<Link className="navbar-brand" to="/"><img src={Brand} alt="brand-image"/></Link>
+			<nav className="container common-container-wdt navbar navbar-expand-lg">
+				<Link className="navbar-brand" to="/"><img src={Brand} alt="brand-image"  /></Link>
 				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>

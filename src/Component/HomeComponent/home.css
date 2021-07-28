@@ -24,6 +24,7 @@
 }
 * {
 	font-family: 'Libre Franklin', sans-serif;
+   scroll-behavior: smooth;
 }
 .hm-hero-section .stock_txt-content {
 	position: absolute;
@@ -102,10 +103,10 @@
 	margin-top: 15px;
 }
 .services-section .about-section .head-detail {
-	width: 460px;
+	width: 45%;
 }
 .services-section .about-section .para-detail {
-	width: 619px;
+	width: 55%;
 }
 .services-section .about-section p{
 	font-size: 18px;
@@ -319,7 +320,7 @@
 	width: 100%;
 }
 .product-slider .slider__item {
-	padding-left: 20px;
+	padding-right: 20px;
 }
 .product-slider .slider__item span {
 	font-size: 16px;
@@ -365,7 +366,7 @@ button.slider-count-btn {
 	width: 100%;
 }
 .case-study-section .case-study .case-stories {
-	width: 34%;
+	width: 32%;
 }
 .case-study-section .case-study .case-study-slider {
 	width: 66%;
@@ -373,15 +374,8 @@ button.slider-count-btn {
 .case-stories .story-grid {
 	position: relative;
 }
-.story-grid .story-txt {
-	position: absolute;
-	max-width: 335px;
-	background-color: #fff;
-	padding: 65px 40px;
-	min-height: 295px;
-	top: 40.5%;
-	left: -10%;
-}
+
+
 .case-study-section {
 	background: #EDEFF1;
 	padding-bottom: 70px;
@@ -437,11 +431,11 @@ button.slider-count-btn {
 }
 .case-study-slider .slider__item.case-std-img .case-sty-txt{
 	position: absolute;
-    top: 27.5%;
     color: #fff;
     background: #1BA3DD;
     padding: 15px 35px;
     font-size: 16px;
+    bottom: 0;
 	text-decoration: none;
 }
 .case-study-slider .case-std-content h5 {
@@ -455,14 +449,14 @@ button.slider-count-btn {
 	line-height: 29px;
 	color: #000;
 	padding-right: 40px;
-	max-width: 330px;
+	max-width: 500px;
 	margin: 10px 0 15px 0;
 }
 .case-study-slider .case-std-content p {
 	font-weight: normal;
 	font-size: 18px;
 	color: #A0A0A0;
-	max-width: 300px;
+	max-width: 500px;
 }
 .case-study-slider .case-std-content {
 	background: #fff;
@@ -669,7 +663,10 @@ button.slider-count-btn {
 	.img-dept-content img {
 		width: 70%;
 	}
-
+  .story-grid .story-txt {
+    max-width: 435px !important;
+    padding: 85px 60px !important;
+  }
 }
 @media (max-width:1500px) {
 	.img-dept-content img {
@@ -677,7 +674,27 @@ button.slider-count-btn {
 	}
 }
 
-@media (max-width: 1366px) {
+@media (min-width:1200px) {
+	.common-container-wdt {
+		max-width: 90%;
+	}
+  
+  .story-grid .story-txt {
+    position: absolute;
+    max-width: 345px;
+    background-color: #fff;
+    padding: 64px 60px;
+    min-height: 305px;
+    bottom: 0;
+    left: -10%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .common-container-wdt {
+		max-width: 80%;
+	}
+  
 	.hm-hero-section .stock_sec_image {
 		padding: 200px 0 400px 0;
 	}
@@ -698,6 +715,15 @@ button.slider-count-btn {
 	.img-dept-content img {
 		width: 100%;
 	}
+  
+}
+
+.case-stories .case-img-relate {
+  position: relative;
+}
+
+.case-study-slider .slider__item.case-std-img .slider-img-rel {
+  position: relative;
 }
 @-webkit-keyframes fadeInUpSD {
 	0% {
@@ -734,3 +760,4 @@ button.slider-count-btn {
 	opacity: 1;
 	width: 100%;
   }
+

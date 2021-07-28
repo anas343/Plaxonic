@@ -28,7 +28,7 @@ export default class bannerslider extends Component {
 				<div className="banner-slider-sec">
 					<Slider {...settings}>
 						<div className="stock_sec_image">
-							<div className="container stck-cont-pst">
+							<div className="container common-container-wdt stck-cont-pst">
 								<div className="stock_txt-content slide-content">
 									<span>01</span>
 									<h2>Driven to make experiences that cut through the noise</h2>
@@ -40,7 +40,7 @@ export default class bannerslider extends Component {
 							</div>
 						</div>
 						<div className="stock_sec_image2">
-							<div className="container stck-cont-pst slide-content">
+							<div className="container common-container-wdt stck-cont-pst slide-content">
 								<div className="stock_txt-content">
 									<span>02</span>
 									<h2>Driven to make experiences that cut through the noise</h2>
@@ -52,7 +52,7 @@ export default class bannerslider extends Component {
 							</div>
 						</div>
 						<div className="stock_sec_image3">
-							<div className="container stck-cont-pst slide-content">
+							<div className="container common-container-wdt stck-cont-pst slide-content">
 								<div className="stock_txt-content">
 									<span>03</span>
 									<h2>Driven to make experiences that cut through the noise</h2>

@@ -117,9 +117,10 @@ export default class casestudyslider extends Component {
 
 				// Set the height of all those children to whichever was highest 
 				$('.case-std-content').height(highestBox);
-			}); 
+			});
 		});
-	 this.handleLoad();
+		window.addEventListener('load', this.handleLoad);
+		this.handleLoad();
 	}
 	
 	
@@ -164,14 +165,16 @@ export default class casestudyslider extends Component {
 				<>
 					<div className="common-pad">
 						<div className="case-study-section  common-pad">
-							<div className="container case-study">
+							<div className="container common-container-wdt case-study">
 								<div className="case-stories">
 									<div className="story-grid" data-aos="fade-up">
-										<img src={CaseImage1} alt="case-img" className='cmn-std-width' />
-										<div className="story-txt">
-											<h5>knowledge base</h5>
-											<h2>Success Stories</h2>
-											<p>We work together across the globe to make a world of difference.</p>
+										<div className='case-img-relate'>
+											<img src={CaseImage1} alt="case-img" className='cmn-std-width' />
+											<div className="story-txt">
+												<h5>knowledge base</h5>
+												<h2>Success Stories</h2>
+												<p>We work together across the globe to make a world of difference.</p>
+											</div>
 										</div>
 										<div className="case-journey">
 											<a href="#">Start your journey <span><img src={Uparrow} alt='up-arrow'/></span></a>
@@ -183,8 +186,10 @@ export default class casestudyslider extends Component {
 										{ sliderElements.map((element) => (										
 										<div className="slider">
 											<div className="slider__item case-std-img" data-aos="fade-up">
-												<img src={element.src} alt="product-first"/>
+												<div className='slider-img-rel'>
+										   		<img src={element.src} alt="product-first"/>
 													<a href='#' className='case-sty-txt'>{element.customTxt}</a>
+												</div>
 												<div className="case-std-content">
 													<h5>{element.title}</h5>
 													<h2>{element.head}</h2>

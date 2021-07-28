@@ -199,3 +199,9 @@ a.nav-link.header_list:hover {
 	font-size: 12px;
 	color: #848484;
 }
+
+@media (min-width:1366px) {
+	.common-container-wdt {
+		max-width: 80%;
+	}
+}

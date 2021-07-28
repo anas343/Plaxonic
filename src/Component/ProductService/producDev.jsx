@@ -151,16 +151,16 @@ export default class producDev extends Component {
 		return (
 			<>
 				<div className='dvp-services-section'> 
-					<div className='container mob-excps-section common-pad'>
+					<div className='container common-container-wdt mob-excps-section common-pad'>
 						<div className='exp-mob-hd' data-aos="fade-up">
 							<h3>Develop engaging mobile experiences</h3>
 							<p>Besides offering a full range of app development services, we help you in creating next generation high performing and feature-packed apps with innovative services.</p>
 						</div>
 						<div className='engage-services'>
 							{ DevlopServices.map((element) => ( 
-								<div className='develop-services' data-aos="fade-up">
+								<div className='develop-services' data-aos="fade-up" data-duration='500'>
 									<div className='dev-prd-image' data-aos="fade-up">
-										<img src={element.image} alt=''/>
+										<img src={element.image} alt='' data-duration='500'/>
 									</div>
 									<h3>{element.head}</h3>
 									<p>{element.desc}</p>
@@ -171,7 +171,7 @@ export default class producDev extends Component {
 				</div>
 
 				<div className='app-build-process common-pad'>
-					<div className= 'container' data-aos="fade-up">
+					<div className= 'container common-container-wdt' data-aos="fade-up">
 						<h2>Our app development process</h2>
 						<p>Our app development process ensures operational efficiency, cost-effectiveness, and overall market standing while creating engaging apps irrespective of what device plan our clients come with.</p>
 						<div className='app-process-stage'>
@@ -209,7 +209,7 @@ export default class producDev extends Component {
 							</div>
 						</div>
 					</div>
-					<div className='container'>
+					<div className='container common-container-wdt'>
 						<div className='app-process-stage'>
 							<div className='process-build' data-aos="fade-up">
 								{ LstDevProcess.map((element) => ( 

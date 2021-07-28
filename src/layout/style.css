@@ -1,3 +1,10 @@
+
+@media (min-width: 1366px) {
+	.common-container-wdt {
+		max-width: 80%;
+	}
+}
+
 .grow_bussiness {
 	background-color: #1BA3DD;
 }
