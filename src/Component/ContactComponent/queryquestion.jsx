@@ -71,7 +71,6 @@ export default class queryquestion extends Component {
 					</div>
 
 					<div className='map-content-section'>
-						<img src= {mapImage} className='country-map' alt/>
 						<div className='country-grid'>
 							{ CompanyAddress.map((element) => (
 							<div className='grid-map1' data-aos="fade-up">
