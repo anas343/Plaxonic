@@ -3,13 +3,14 @@ import connectarrow from '../assests/bl_arrow.svg'
 import '../layout/style.css'
 
 export default class common_component extends Component {
+
 	render() {
 		return (
 			<>
 				<div className="grow_bussiness">
 					<div className="container common-container-wdt buss-grid">
 						<div className="txt-sec" data-aos="fade-up">
-							<h1>Are you ready to start building your modern digital business?</h1>
+							<h2>Are you ready to start building your modern digital business?</h2>
 							<p>Cras habitant quisque pellentesque pellentesque aliquam.</p>
 						</div>
 						<div className="connect-with-us" data-aos="fade-up"> 

@@ -9,6 +9,7 @@ import 'aos/dist/aos.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from './Component/AboutComponent/about'
 import ProductService from './Component/ProductService/service'
+import GetInTouch from './Component/ContactComponent/getInTouch'
 
 
 
@@ -36,6 +37,9 @@ function App() {
         </Route>
         <Route exact path="/service">
           <ProductService title= 'Service' />
+        </Route>
+        <Route exact path="/getInTouch">
+          <GetInTouch title= 'Get In Touch' />
         </Route>
       </Switch>
       <Footer/>
