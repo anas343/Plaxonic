@@ -1,0 +1,191 @@
+
+
+@media (min-width: 1200px) {
+	.common-container-wdt {
+		max-width: 90%;
+	}
+}
+
+
+
+@media (min-width: 1366px) {
+	.common-container-wdt {
+		max-width: 80%;
+	}
+
+}
+
+.common-pad {
+	padding-top: 100px;
+}
+
+.sec-grid-sty .gd-content {
+	width: 55%;
+	padding-left: 40px;
+}
+
+.our-story-sec .story-content h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	color: #030303;
+}
+.our-story-sec .story-content p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #000;
+	margin: 25px 0;
+}
+
+.sec-grid-sty {
+	display: flex;
+	width: 100%;
+	padding-top: 20px;
+}
+
+.sec-grid-sty .gd-img-sec img {
+	width: 100%;
+}
+
+.sec-grid-sty .gd-img-sec {
+	width: 45%;
+}
+
+.sec-grid-sty .gd-bx1 p {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	color: #FFFFFF;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.sec-grid-sty .gd-bx1 span {
+	font-style: italic;
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	position: relative;
+	top: 25px;
+	padding: 20px;
+}
+.sec-grid-sty .gd-bx1 {
+	background-color:  #1BA3DD;
+	padding: 50px 0 75px 30px;
+	margin: 0 auto;
+}
+.sec-grid-sty .gd-bx2 p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #000;
+	padding: 0 40px;
+	position: relative;
+	top: 40px;
+} 
+
+.grid-diff {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.grid-diff .cmn-wdth img {
+	width: 100%;
+}
+.grid-diff .cmn-wdth2 img {
+	width: 100%;
+	position: absolute;
+	top: 10%;
+}
+.grid-diff .cmn-wdth3 img {
+	width: 100%;
+}
+
+.grid-diff .cmn-wdth {
+	width: 23.5%;
+}
+.grid-diff .cmn-wdth2 {
+	width: 39.5%;
+	position: relative;
+}
+.grid-diff .cmn-wdth3 {
+	width: 31.5%;
+}
+
+.plaxonic-diff-sec h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	color: #030303;
+}
+.plaxonic-diff-sec p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #000;
+	margin: 25px 0 40px 0;
+}
+.grid-mre-section .bx-1 {
+	background: #1BA3DD;
+	width: 48.7%;
+	margin-top: 40px;
+	padding: 50px 50px 70px 70px;
+	position: relative;
+}
+.grid-mre-section .bx-grd {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+.grid-mre-section .bx-1 h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	color: #FFFFFF;
+}
+.grid-mre-section .bx-1 p {
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+	margin: 25px 0 40px 0;
+}
+.grid-mre-section .bx-1 a {
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 20px 45px 20px 30px;
+	text-decoration: none;
+}
+.grid-mre-section {
+  padding-top: 40px;
+}
+.grid-mre-section h2 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	color: #030303;
+	margin-bottom: 20px;
+}
+.grid-mre-section .bx-1::before {
+	content: '';
+	background: url('../../assests/Ellipse 22.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 312px;
+	right: 0;
+	width: 40%;
+	left: 70%;
+}

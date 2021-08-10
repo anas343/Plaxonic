@@ -1,0 +1,120 @@
+
+
+@media (min-width: 1200px) {
+	.common-container-wdt {
+		max-width: 90%;
+	}
+}
+
+
+
+@media (min-width: 1366px) {
+	.common-container-wdt {
+		max-width: 80%;
+	}
+}
+
+/* Join Us section */
+	.grow_bussiness {
+		background-color: #1BA3DD;
+	}
+
+	.grow_bussiness .txt-sec h2 {
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 44px;
+		color: #fff;
+		max-width: 630px;
+	}
+	.grow_bussiness .txt-sec p  {
+		color: #fff;
+		font-size: 18px;
+		font-weight: normal;
+		max-width: 600px;
+	}
+	.container.buss-grid {
+		display: flex;
+		padding-top: 100px;
+		padding-bottom: 90px;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.container.buss-grid .txt-sec {
+		width: 60%;
+	}
+	.container.buss-grid .connect-with-us {
+		width: 40%;
+		text-align: right;
+		margin: auto;
+	}
+	.connect-with-us a:hover img {
+		transform: rotate(45deg);
+		transition: all .3s ease;
+	}
+	.connect-with-us a img {
+		transition: all .3s ease;
+	}
+	.all-services .provide_srv .uparrow-lft {
+		border: solid black;
+		border-width: 0 3px 3px 0;
+		display: inline-block;
+		padding: 4px;
+		transform: rotate(-90deg);
+		position: relative;
+		top: 15px;
+		left: 6px;
+	}
+
+/* Join US Section End */
+
+
+/* Service Banner */
+
+	.prd-service-section .service-back {
+		padding: 150px 0;
+	}
+	.prd-service-section .service-content ul {
+		list-style: none;
+		display: inline-flex;
+		padding-left: 0;
+		position: relative;
+		top: 2px;
+	}
+	.prd-service-section .service-content ul li {
+		color: #fff;
+		font-size: 16px;
+		font-weight: normal;
+		text-transform: uppercase;
+	}
+	* {
+		font-family: 'Libre Franklin', sans-serif;
+	}
+
+	.prd-service-section .service-content ul li:before {
+		content: '>';
+		padding: 0 8px;
+	}
+	.prd-service-section .service-content ul li:first-child::before {
+		content: '>';
+		padding: 0 10px 0 13px;
+	}
+	.prd-service-section .service-content ul li:after {
+		content: '>';
+		padding: 0 0 0 10px;
+	}
+	.prd-service-section .service-content ul li:last-child:after {
+		content: '';
+	}
+	.prd-service-section .service-content ul li:last-child:before {
+		content: '>';
+	}
+	.prd-service-section .service-content ul li:nth-child(2)::before {
+		content: '';
+	}
+	.prd-service-section .service-content ul li:nth-child(2)::after {
+		content: '';
+	}
+
+/* Service Banner End */
+
+

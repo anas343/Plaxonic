@@ -1,49 +1,8 @@
-.prd-service-section .service-back {
-	background: linear-gradient(88.89deg, #000000 -23.17%, rgba(0, 0, 0, 0) 65.41%), url('../../assests/service_banner.jpg');
-	background-repeat: no-repeat;
-	padding: 110px 0;
-	background-size: cover;
-	background-position: top;
-	background-position-x: right;
-}
-.prd-service-section .service-content ul {
-	list-style: none;
-	display: inline-flex;
-	padding-left: 0;
-	position: relative;
-	top: 2px;
-}
-.prd-service-section .service-content ul li {
-	color: #fff;
-	font-size: 16px;
-	font-weight: normal;
-	text-transform: uppercase;
-}
+
 * {
 	font-family: 'Libre Franklin', sans-serif;
 }
 
-.prd-service-section .service-content ul li:before {
-	content: '>';
-	padding: 0 8px;
-}
-.prd-service-section .service-content ul li:first-child::before {
-	content: '>';
-	padding: 0 10px 0 13px;
-} 
-.prd-service-section .service-content ul li:after {
-	content: '>';
-	padding: 0 0 0 10px;
-}
-.prd-service-section .service-content ul li:last-child:after {
-	content: '';
-}
-.prd-service-section .service-content ul li:last-child:before {
-	content: '';
-}
-.prd-service-section .service-content ul li:nth-child(2)::before {
-	content: '';
-}
 .app_development_section .head-txt-section h2 {
 	font-style: normal;
 	font-weight: bold;
@@ -89,38 +48,35 @@
 	position: relative;
 	left: 10px;
 }
-.app_section-grid .common_app_boxes .app_box-1 {
-	background: #2A333A;
-	width: 49%;
-	margin-top: 25px;
+.common_app_boxes .app_box-1 {
+	width: 48.7%;
+	margin-top: 40px;
 	transition: all .3s ease;
 }
-.app_section-grid .common_app_boxes .app_box-1:hover {
-	background: #1BA3DD;
+.common_app_boxes .app_box-1:hover {
+	background: #1BA3DD !important;
 	transition: all .3s ease;
 }
-.app_section-grid .common_app_boxes .box-aap-content {
-	padding: 50px 20px 50px 40px;
+.common_app_boxes .box-aap-content {
+	padding: 50px 50px 50px 70px;
 }
-.app_section-grid .common_app_boxes {
+.common_app_boxes {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	justify-content: space-between;
 }
-.app_section-grid .common_app_boxes .app_box-1 h3 {
+ .common_app_boxes .app_box-1 h3 {
 	font-style: normal;
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 29px;
-	color: #fff;
 	margin: 30px 0 25px 0;
 }
-.app_section-grid .common_app_boxes .app_box-1 p {
+.common_app_boxes .app_box-1 p {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	color: #fff;
 }
 
 .aaps-development-section .grid-ecosystem {
@@ -169,7 +125,9 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
-	padding: 180px 0;
+	padding: 70px 0;
+	background-position: center;
+	margin-bottom: -10px;
 }
 
 .tech-banner-section .tech-txt-content h4 {
@@ -189,19 +147,18 @@
 	margin-top: 25px;
 }
 .tech-section .tech-txt-content {
-	position: absolute;
-	top: 80px;
+	position: relative;
+	top: 10px;
 }
 
-
+.pd-common-boxes {
+	padding-bottom: 100px;
+}
 
 @media (min-width: 1600px) {
-	.tech-section .tech-txt-content {
-		top: 130px;
-	}
+
 	.tech-banner-section {
-		padding: 230px 0;
-		background-position: center top;
+		padding: 120px 0;
 	}
 }
 
@@ -434,6 +391,7 @@
 
 .srvs-slider-section {
 	position: relative;
+	margin-bottom: -10px;
 }
 .srvs-slider-section .content-desc {
 	position: absolute;

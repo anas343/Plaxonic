@@ -117,8 +117,11 @@
 	display: flex;
 	width: 100%;
 	box-sizing: border-box;
-	justify-content: space-between;
+	flex-wrap: wrap;
 	padding-top: 40px;
+}
+.services-section .about-service-desc .ser_box-1 {
+	width: 33%;
 }
 .services-section .about-service-desc h5 {
 	font-size: 36px;
@@ -149,7 +152,10 @@
 	display: flex;
 	width: 100%;
   box-sizing: border-box;
-  justify-content: space-between;
+	flex-wrap: wrap;
+}
+.services-provide-section .srv-detail .service-hd {
+	width: 75%;
 }
 .services-provide-section .service-portal h4 {
 	font-size: 16px;
@@ -219,27 +225,28 @@
 	padding-bottom: 40px;
 }
 .project-succ .project-services h2 {
-	color: #fff;
 	font-weight: bold;
 	font-size: 56px;
 }
 .project-succ .project-services h3 {
-	color: #fff;
 	font-weight: bold;
 	font-size: 56px;
+}
+.project-succ .project-services h5 {
+	font-weight: normal;
+	font-size: 18px;
+	margin: 25px 0 40px 0;
 }
 .project-succ .project-services h2:after {
 	content: '+';
 	font-weight: bold;
 }
 .project-succ {
-	background:  linear-gradient(89.45deg, #1DA4DE 0.35%, #3EB9ED 62.88%);
 	padding: 60px 0 50px 0;
 	margin-top: 40px;
 }
 
 .project-succ h2 {
-	color: #fff;
 	font-weight: bold;
 	font-size: 36px;
 }
@@ -255,8 +262,11 @@
 .project-succ .project-count {
 	display: flex;
 	width: 100%;
-	box-sizing: border-box;
 	justify-content: space-between;
+	box-sizing: border-box;
+}
+.project-succ .project-count .project-services {
+	padding: 0 20px 0 20px;
 }
 .product_desc-detail {
 	display: flex;

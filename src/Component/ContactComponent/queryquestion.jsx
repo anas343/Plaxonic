@@ -82,18 +82,6 @@ export default class queryquestion extends Component {
 							))}
 						</div>
 					</div>
-				</div>	
-
-				<div className='career-insight-sec'>
-					<div className='container common-container-wdt common-pad career-insight'>
-						<div className="txt-sec" data-aos="fade-up">
-							<h2>See what we do, how we work, and how you can join us</h2>
-							<p>Cras habitant quisque pellentesque pellentesque aliquam..</p>
-						</div>
-						<div className="connect-with-us" data-aos="fade-up"> 
-							<a href="">Explore Plaxonic careers<span><img src={connectarrow} alt=""/></span></a>
-						</div>
-					</div>
 				</div>
 			</>
 		)

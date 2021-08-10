@@ -7,11 +7,19 @@ import Services from '../HomeComponent/services'
 import Product from '../HomeComponent/product'
 import CaseStudy from '../HomeComponent/casestudyslider'
 import Career from '../HomeComponent/career'
-import CmnLayout from '../../layout/common_component'
+import CmnLayout from '../GenericComponents/joinUs'
+import React, { Component } from 'react'
+import CounterJS from '../HomeComponent/numbercounter'
 
 
-	import React, { Component } from 'react'
 	
+
+const title = 'Are you ready to start building your modern digital business?'
+const para = 'Cras habitant quisque pellentesque pellentesque aliquam.'
+const btntxt = 'Connect with us'
+
+
+
 	export default class home extends Component {
 
 		componentDidMount() {
@@ -22,30 +30,20 @@ import CmnLayout from '../../layout/common_component'
 			
 			return (
 				<div className="hm-hero-section">
-					{/* <Slider Component> */}
-				   	<BannerSlider/>
-					{/* <Slider Component End> */}
+	
+				  <BannerSlider/>
+				
+					<Services/>
 
-					{/* <Service Component> */}
-					  <Services/>
-					{/* <Service Component End> */}
+					<CounterJS background={true} content={true} headclr={'#fff'} paraclr={'#fff'}/>
 
-					{/* <Product Component> */}
-					  <Product/>
-					{/* <Product Component End> */}
-
-					{/* {Case Study Component} */}
-						<CaseStudy/>
-					{/* {Case Study End} */}
-
-					{/* Career Component */}
-						<Career/>
-					{/* Career Component End */}
-
-					{/* Common Component */}
-						<CmnLayout/>
-					{/* Common Component end */}
-
+					<Product/>
+				
+					<CaseStudy/>
+				
+					<Career/>
+				
+					<CmnLayout title={title} para={para} btntxt={btntxt}/>
 				</div>
 			)
 		}

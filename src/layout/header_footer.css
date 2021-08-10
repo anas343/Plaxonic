@@ -10,11 +10,13 @@ a.nav-link.header_list {
 	padding-right: 25px !important;
 }
 .navbar-nav .nav-item:first-child a.nav-link.header_list {
-	padding-left: 30px !important;
+	padding-left: 20px !important;
 }
-a.nav-link.header_list:hover {
-	font-weight: bold;
+
+.hideDrpMenu {
+	display: none !important
 }
+
 .get_in_touch a {
 	background: #1BA3DD;
 	color: #fff;
@@ -204,4 +206,82 @@ a.nav-link.header_list:hover {
 	.common-container-wdt {
 		max-width: 80%;
 	}
+}
+
+
+.navbar-nav .active>.nav-link, .navbar .navbar-nav .nav-link.active, .navbar.navbar-nav .nav-link.show, .navbar .navbar-nav .show>.nav-link {
+	font-weight: 600;
+}
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+  /* remove the padding from the navbar so the dropdown hover state is not broken */
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+  
+
+  /* makes the dropdown full width  */
+  .navbar .dropdown {
+    position: static;
+  }
+
+  .navbar .dropdown-menu {
+    width: 100%;
+		margin-top: 0px;
+    border-top: 1px solid #DDDDDD;
+		border-radius: 0;
+		border-right: 0;
+		border-left: 0;
+  }
+	
+  .navbar .dropdown-menu {
+    background-color: #fff;
+  }
+}
+
+
+.dropdown-toggle::after {
+	content: none;
+}
+.navbar .dropdown-menu .prd-services-content ul {
+	padding-left: 0;
+	list-style: none;
+}
+.dropdown-menu .service-fl-box {
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+	flex-wrap: wrap;
+	padding: 30px 0;
+}
+.dropdown-menu .service-fl-box .service-box {
+	width: 25%;
+}
+
+.dropdown-menu .service-fl-box .service-box h4 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #1BA3DD;
+}
+nav.navbar.navbar-expand-lg {
+	padding: 10px 0;
+}
+.service-fl-box .service-box  ul li  {
+	padding: 10px 0;
+}
+.service-fl-box .service-box  ul li a {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+
+.bottom-padd {
+	margin-bottom: 60px;
 }

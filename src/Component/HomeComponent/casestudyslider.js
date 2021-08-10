@@ -119,20 +119,19 @@ export default class casestudyslider extends Component {
 				$('.case-std-content').height(highestBox);
 			});
 		});
-		window.addEventListener('load', this.handleLoad);
-		this.handleLoad();
 	}
 	
-	
-	handleLoad() {
-		var calHeight = $('.case-std-img').height();
-		$('.cmn-std-width').css({'height' : calHeight, 'width': '100%'});
-	 }
 	constructor(props) {
     super(props);
     this.next = this.next.bind(this);
     this.previous = this.previous.bind(this);
+  	this.onImgLoad = this.onImgLoad.bind(this);
   }
+	onImgLoad({target:img}) {
+		var calHeight = $('.slider__item.case-std-img ').height();
+		console.log(calHeight)
+		$('.cmn-std-width').css({'height' : calHeight, 'width': '100%'});
+	}
   next() {
     this.slider.slickNext();
   }
@@ -169,7 +168,7 @@ export default class casestudyslider extends Component {
 								<div className="case-stories">
 									<div className="story-grid" data-aos="fade-up">
 										<div className='case-img-relate'>
-											<img src={CaseImage1} alt="case-img" className='cmn-std-width' />
+											<img src={CaseImage1} alt="case-img" onLoad={this.onImgLoad} className='cmn-std-width' />
 											<div className="story-txt">
 												<h5>knowledge base</h5>
 												<h2>Success Stories</h2>

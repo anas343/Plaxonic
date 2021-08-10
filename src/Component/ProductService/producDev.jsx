@@ -18,6 +18,10 @@ import CaseStudy1 from '../../assests/srvs1.png'
 import CaseStudy2 from '../../assests/srvs2.png'
 import Previousbtn from '../../assests/prv-arrow-rht.svg'
 import Nxtbtn from '../../assests/nxt-arrow.svg'
+import DevlopSerProcess from '../Pages/devlopprocess';
+
+const devHead = 'Develop engaging mobile experiences'
+const devPara = 'Besides offering a full range of app development services, we help you in creating next generation high performing and feature-packed apps with innovative services.'
 
 const DevlopServices = [
 	{
@@ -112,6 +116,7 @@ const sliderElements = [
 		desc: 'The smart online food ordering app & platform',
 	},
 ]
+
 export default class producDev extends Component {
 	
 	constructor(props) {
@@ -150,25 +155,8 @@ export default class producDev extends Component {
 		};
 		return (
 			<>
-				<div className='dvp-services-section'> 
-					<div className='container common-container-wdt mob-excps-section common-pad'>
-						<div className='exp-mob-hd' data-aos="fade-up">
-							<h3>Develop engaging mobile experiences</h3>
-							<p>Besides offering a full range of app development services, we help you in creating next generation high performing and feature-packed apps with innovative services.</p>
-						</div>
-						<div className='engage-services'>
-							{ DevlopServices.map((element) => ( 
-								<div className='develop-services' data-aos="fade-up" data-duration='500'>
-									<div className='dev-prd-image' data-aos="fade-up">
-										<img src={element.image} alt='' data-duration='500'/>
-									</div>
-									<h3>{element.head}</h3>
-									<p>{element.desc}</p>
-								</div>
-							))}
-						</div>
-					</div>
-				</div>
+
+				<DevlopSerProcess devHead={devHead} devPara = {devPara} DevlopServices = {DevlopServices}/>
 
 				<div className='app-build-process common-pad'>
 					<div className= 'container common-container-wdt' data-aos="fade-up">
